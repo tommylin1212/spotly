@@ -3,8 +3,6 @@ import { pb, SpotifyAuthStore } from "@/lib/pocketbase";
 import ListLogins from "./loginButton"
 import Link from "next/link";
 
-
-
 export default function Page(){
     
     const authStore=pb.authStore as SpotifyAuthStore
