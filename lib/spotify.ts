@@ -1,5 +1,4 @@
 import { Session } from "next-auth"
-console.log("🚀 ~ file: spotify.ts:3 ~ Spotify_Id", process.env.SPOTIFY_ID)
 export const getAccessToken = async (token:Session) => {
   
     if (!token) return
