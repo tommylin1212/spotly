@@ -3,6 +3,7 @@ import { pb } from "@/lib/pocketbase"
 import { useSearchParams } from "next/navigation"
 import { AuthProviderInfo, Record } from "pocketbase"
 import { useEffect, useState } from "react";
+import { topTracks } from "@/lib/spotify";
 import { SpotifyAuthStore } from "@/lib/pocketbase";
 import { useRouter } from "next/navigation";
 
